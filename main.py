@@ -7,6 +7,8 @@ recognizer = speech_recognition.Recognizer()
 
 speaker = tts.init()
 speaker.setProperty('rate', 200)  # speech_rate
+voices = speaker.getProperty('voices')
+speaker.setProperty('voice', voices[1].id)
 
 todo_list = []
 
