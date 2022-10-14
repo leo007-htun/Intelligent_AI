@@ -1,0 +1,64 @@
+{
+  "intents":
+  [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "How is it going?",
+        "Are you alright?",
+        "Ola"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, master",
+        "Hi master, what can I do for you?",
+        "Hi master, how can I help?",
+        "Do you need anything, master?",
+        "You alright?",
+        "Oh hello there",
+        "cut the crap, what do you need?"
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["Bye", "See you later", "Goodbye", "stop", "quit", "I have to go"],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "create_note",
+      "patterns": ["Please create a new note", "New note", "Create a note", "I want to create a note"],
+      "responses": [""]
+    },
+    {
+      "tag": "add_todo",
+      "patterns": [
+        "I want to add a todo",
+        "add a new todo",
+        "add a todo to my list",
+        "New item to my todo list"
+      ],
+      "responses": [""]
+    },
+    {
+      "tag": "show_todos",
+      "patterns": [
+        "Show my todos",
+        "What are my todos",
+        "What is on my todo list?"
+      ],
+      "responses": [
+        ""
+      ]
+    }
+  ]
+}
+
